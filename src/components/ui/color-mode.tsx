@@ -17,27 +17,22 @@ export function ColorModeProvider(props: ColorModeProviderProps) {
 
 export type ColorMode = "light" | "dark"
 
-export interface UseColorModeReturn {
+export interface UseColorModeReturnType {
   colorMode: ColorMode
   setColorMode: (colorMode: ColorMode) => void
   toggleColorMode: () => void
 }
 
-export function useColorMode(): UseColorModeReturn {
-  const { theme, setTheme } = useTheme()
-  const toggleColorMode = () => {
-    setTheme(theme === "light" ? "dark" : "light")
-  }
+export function useColorMode(): UseColorModeReturnType {
   return {
-    colorMode: (theme || "light") as "light" | "dark",
-    setColorMode: setTheme,
-    toggleColorMode,
+    colorMode: 'light' as const,
+    setColorMode: () => {},
+    toggleColorMode: () => {},
   }
 }
 
-export function useColorModeValue<T>(light: T, dark: T) {
-  const { colorMode } = useColorMode()
-  return colorMode === "light" ? light : dark
+export function useColorModeValue<T>(light: T, dark: T): T {
+  return light // Always return light mode for now
 }
 
 export interface ColorModeIconProps extends Omit<IconButtonProps, "aria-label"> {}
@@ -134,3 +129,15 @@ export const DarkMode = React.forwardRef<HTMLSpanElement, SpanProps>(
     )
   },
 )
+
+export interface ColorModeScriptProps {
+  initialColorMode?: 'light' | 'dark'
+}
+
+export function ColorModeScript(props: ColorModeScriptProps) {
+  return null
+}
+
+export function SimpleColorModeProvider({ children }: { children: React.ReactNode }) {
+  return <>{children}</>
+}

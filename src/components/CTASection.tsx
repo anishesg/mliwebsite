@@ -154,7 +154,7 @@ export default function CTASection() {
               fontWeight="medium"
             >
               Join the next generation of AI researchers. Our Summer 2025 program fills up quickly,
-              so don't wait to secure your spot in this transformative experience that will
+              so don&apos;t wait to secure your spot in this transformative experience that will
               accelerate your path to top universities.
             </Text>
           </motion.div>

@@ -31,17 +31,6 @@ const features = [
 ]
 
 export default function Features() {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        delayChildren: 0.2,
-        staggerChildren: 0.15,
-      },
-    },
-  }
-
   const cardVariants = {
     hidden: { 
       y: 20, 

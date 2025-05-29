@@ -376,7 +376,7 @@ export default function Programs() {
                       </Box>
 
                       <Box w="full">
-                        <Text fontWeight="bold" mb={3} color="gray.800">What You'll Achieve:</Text>
+                        <Text fontWeight="bold" mb={3} color="gray.800">What You&apos;ll Achieve:</Text>
                         <VStack align="start" gap={2}>
                           {track.outcomes.map((outcome, idx) => (
                             <HStack key={idx} align="start">

@@ -5,12 +5,9 @@
 
 'use client'
 
-import { Box, IconButton } from '@chakra-ui/react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { IconButton } from '@chakra-ui/react'
 import { FaArrowUp } from 'react-icons/fa'
 import { useState, useEffect } from 'react'
-
-const MotionIconButton = motion(IconButton)
 
 export default function BackToTop() {
   const [isVisible, setIsVisible] = useState(false)
@@ -35,36 +32,28 @@ export default function BackToTop() {
     })
   }
 
+  if (!isVisible) return null
+
   return (
-    <AnimatePresence>
-      {isVisible && (
-        <MotionIconButton
-          position="fixed"
-          bottom={8}
-          right={8}
-          size="lg"
-          bg="primary.600"
-          color="white"
-          borderRadius="full"
-          shadow="lg"
-          zIndex={1000}
-          onClick={scrollToTop}
-          aria-label="Back to top"
-          _hover={{
-            bg: 'primary.500',
-            transform: 'translateY(-2px)',
-            shadow: 'xl',
-          }}
-          initial={{ opacity: 0, scale: 0.8, y: 20 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.8, y: 20 }}
-          transition={{ duration: 0.2, ease: 'easeOut' }}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <FaArrowUp />
-        </MotionIconButton>
-      )}
-    </AnimatePresence>
+    <IconButton
+      position="fixed"
+      bottom={8}
+      right={8}
+      size="lg"
+      bg="primary.600"
+      color="white"
+      borderRadius="full"
+      shadow="lg"
+      zIndex={1000}
+      onClick={scrollToTop}
+      aria-label="Back to top"
+      _hover={{
+        bg: 'primary.500',
+        transform: 'translateY(-2px)',
+        shadow: 'xl',
+      }}
+    >
+      <FaArrowUp />
+    </IconButton>
   )
 } 

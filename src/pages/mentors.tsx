@@ -15,7 +15,7 @@ const mentors = [
     university: 'Princeton University',
     image: '/images/anish.jpg',
     expertise: 'Data-Driven Biology Models',
-    description: 'Anish brings complex biological data to life with machine learning—and he\'s eager to help you do the same.',
+    description: 'Anish brings complex biological data to life with machine learning—and he&apos;s eager to help you do the same.',
     highlights: [
       'Published undergrad research in peer-reviewed journals',
       'Developed ML pipelines for genomics and proteomics',
@@ -28,7 +28,7 @@ const mentors = [
     university: 'University of California, Berkeley',
     image: '/images/shrey.jpg',
     expertise: 'Financial Time-Series Modeling',
-    description: 'Shrey\'s real-world finance projects teach you not just theory, but how to build models that win.',
+    description: 'Shrey&apos;s real-world finance projects teach you not just theory, but how to build models that win.',
     highlights: [
       'Co-authored multiple conference papers on algorithmic trading',
       'Led campus-wide ML hackathons and study groups',
@@ -240,7 +240,7 @@ export default function Mentors() {
                           color="gray.700" 
                           lineHeight="relaxed"
                         >
-                          "{mentor.description}"
+                          &ldquo;{mentor.description}&rdquo;
                         </Text>
                       </Box>
                     </VStack>

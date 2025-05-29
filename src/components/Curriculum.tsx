@@ -10,7 +10,6 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { FaDatabase, FaBrain, FaFlask, FaFileAlt, FaRocket } from 'react-icons/fa'
 
 const MotionBox = motion(Box)
-const MotionFlex = motion(Flex)
 
 const modules = [
   {
