@@ -1,65 +1,88 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background gradient -->
+  <!-- Clean gradient background -->
   <rect width="1200" height="630" fill="url(#bgGradient)"/>
   
-  <!-- Background pattern -->
-  <g opacity="0.1">
-    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="20" r="2" fill="white"/>
+  <!-- Subtle pattern overlay -->
+  <g opacity="0.08">
+    <pattern id="dots" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="1.5" fill="white"/>
     </pattern>
     <rect width="1200" height="630" fill="url(#dots)"/>
   </g>
   
-  <!-- Main content -->
-  <g transform="translate(100, 150)">
-    <!-- Logo/Icon -->
-    <circle cx="80" cy="80" r="60" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="3"/>
-    <g transform="translate(50, 50)" stroke="white" stroke-width="3" fill="white">
-      <circle cx="20" cy="25" r="3"/>
-      <circle cx="20" cy="45" r="3"/>
-      <circle cx="50" cy="35" r="4"/>
-      <circle cx="80" cy="25" r="3"/>
-      <circle cx="80" cy="45" r="3"/>
-      <line x1="25" y1="25" x2="45" y2="35" opacity="0.8"/>
-      <line x1="25" y1="45" x2="45" y2="35" opacity="0.8"/>
-      <line x1="55" y1="35" x2="75" y2="25" opacity="0.8"/>
-      <line x1="55" y1="35" x2="75" y2="45" opacity="0.8"/>
+  <!-- Main content container -->
+  <g transform="translate(80, 120)">
+    <!-- Clean logo icon -->
+    <g transform="translate(0, 40)">
+      <circle cx="50" cy="50" r="45" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="2"/>
+      <g transform="translate(30, 30)" stroke="white" stroke-width="2" fill="white">
+        <!-- Neural network nodes -->
+        <circle cx="15" cy="20" r="2.5"/>
+        <circle cx="15" cy="35" r="2.5"/>
+        <circle cx="40" cy="27.5" r="3"/>
+        <circle cx="65" cy="20" r="2.5"/>
+        <circle cx="65" cy="35" r="2.5"/>
+        <!-- Connections -->
+        <line x1="18" y1="20" x2="36" y2="27.5" opacity="0.8"/>
+        <line x1="18" y1="35" x2="36" y2="27.5" opacity="0.8"/>
+        <line x1="44" y1="27.5" x2="62" y2="20" opacity="0.8"/>
+        <line x1="44" y1="27.5" x2="62" y2="35" opacity="0.8"/>
+      </g>
     </g>
     
     <!-- Main heading -->
-    <text x="200" y="60" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white">
+    <text x="130" y="70" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="white">
       Machine Learning Institute
     </text>
     
     <!-- Subheading -->
-    <text x="200" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="rgba(255,255,255,0.9)">
-      Summer 2025 AI Research Program
+    <text x="130" y="120" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="rgba(255,255,255,0.9)">
+      Summer 2025 AI Research Program for High School Students
     </text>
     
-    <!-- Key points -->
-    <g transform="translate(0, 180)" font-family="Arial, sans-serif" font-size="24" fill="white">
-      <text x="0" y="0">🎯 Elite mentorship from Princeton, UC Berkeley &amp; Stanford</text>
-      <text x="0" y="40">📊 Hands-on ML research with real-world impact</text>
-      <text x="0" y="80">🏆 Guaranteed publication in Harvard-affiliated journal</text>
-      <text x="0" y="120">🚀 College-ready credentials that stand out</text>
+    <!-- Key benefits in clean layout -->
+    <g transform="translate(0, 180)" font-family="Inter, Arial, sans-serif" font-size="20" fill="white">
+      <g transform="translate(0, 0)">
+        <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.9)"/>
+        <text x="30" y="18" font-weight="500">Elite mentorship from Princeton, UC Berkeley &amp; Stanford researchers</text>
+      </g>
+      <g transform="translate(0, 45)">
+        <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.9)"/>
+        <text x="30" y="18" font-weight="500">Guaranteed publication in Harvard-affiliated research journal</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.9)"/>
+        <text x="30" y="18" font-weight="500">8-week intensive program with hands-on ML research projects</text>
+      </g>
+      <g transform="translate(0, 135)">
+        <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.9)"/>
+        <text x="30" y="18" font-weight="500">College-ready credentials that make your application stand out</text>
+      </g>
     </g>
   </g>
   
-  <!-- Call to action -->
-  <rect x="850" y="480" width="250" height="60" rx="30" fill="white" opacity="0.9"/>
-  <text x="975" y="520" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e40af" text-anchor="middle">
-    Apply Now
-  </text>
+  <!-- Clean call to action -->
+  <g transform="translate(850, 480)">
+    <rect width="280" height="70" rx="35" fill="white" opacity="0.95"/>
+    <text x="140" y="50" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#1e40af" text-anchor="middle">
+      Apply Now
+    </text>
+  </g>
   
   <!-- Website URL -->
-  <text x="100" y="580" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)">
+  <text x="80" y="580" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" fill="rgba(255,255,255,0.8)">
     mlsummer.com
+  </text>
+  
+  <!-- Program details -->
+  <text x="1040" y="580" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.7)" text-anchor="end">
+    Starting at $980 • 100% Publication Rate
   </text>
   
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1e40af"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="70%" stop-color="#7c3aed"/>
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
   </defs>
