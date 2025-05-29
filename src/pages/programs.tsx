@@ -189,10 +189,10 @@ export default function Programs() {
         <meta property="og:title" content="AI Research Programs - Detailed Information About Research Tracks and Curriculum" />
         <meta property="og:description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs." />
         <meta property="og:url" content="https://mlsummer.com/programs" />
-        <meta property="og:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <meta property="og:image" content="/og-image.svg" />
         <meta name="twitter:title" content="AI Research Programs - Detailed Information About Research Tracks and Curriculum" />
         <meta name="twitter:description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs." />
-        <meta name="twitter:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <meta name="twitter:image" content="/og-image.svg" />
         <link rel="canonical" href="https://mlsummer.com/programs" />
       </Head>
       {/* Hero Section with Fixed Gradient Background */}
