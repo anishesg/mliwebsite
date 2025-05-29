@@ -3,6 +3,7 @@
  * Features mentor profiles, expertise areas, and mentorship approach
  */
 
+import Head from 'next/head'
 import { Box, Container, Grid, VStack, HStack, Heading, Text, Image, Badge, SimpleGrid } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import { FaUsers, FaComments, FaLightbulb, FaCheckCircle, FaPhone, FaEnvelope, FaFilePdf } from 'react-icons/fa'
@@ -77,6 +78,12 @@ const mentorshipBenefits = [
 export default function Mentors() {
   return (
     <>
+      <Head>
+        <title>ML Summer Program - Meet Your Mentors</title>
+        <meta name="description" content="Meet the mentors of the ML Summer Program. Learn about their expertise, experience, and mentorship approach." />
+        <meta name="keywords" content="ML Summer Program, mentors, machine learning, research, Princeton, UC Berkeley, Stanford" />
+      </Head>
+
       {/* Hero Section */}
       <Box 
         py={{ base: 16, md: 20 }} 

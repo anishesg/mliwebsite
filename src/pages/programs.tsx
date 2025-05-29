@@ -7,6 +7,7 @@ import { Box, Container, Heading, Text, VStack, HStack, Grid, Badge, Button, Fle
 import { motion } from 'framer-motion'
 import { FaCalendarAlt, FaClock, FaUsers, FaChartLine, FaFilePdf, FaTrophy, FaCheckCircle, FaArrowRight, FaBookOpen, FaLightbulb, FaStar, FaCode, FaBrain, FaRocket, FaAward, FaHandshake } from 'react-icons/fa'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 const MotionBox = motion(Box)
 
@@ -181,6 +182,11 @@ const prerequisites = [
 export default function Programs() {
   return (
     <>
+      <Head>
+        <title>AI Research Programs - Detailed Information About Research Tracks and Curriculum</title>
+        <meta name="description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs. Transform your passion for AI into published research. Join our intensive programs designed to accelerate your journey from curious student to published researcher." />
+        <meta name="keywords" content="AI research programs, research tracks, curriculum, application process, AI, machine learning, research, publication" />
+      </Head>
       {/* Hero Section with Fixed Gradient Background */}
       <Box 
         py={{ base: 16, md: 24 }} 
