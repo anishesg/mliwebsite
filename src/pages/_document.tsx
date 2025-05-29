@@ -50,7 +50,7 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Machine Learning Institute - Summer 2025 AI Research Program" />
         <meta property="og:description" content="Elite AI research program for high school students. Get mentored by Princeton, UC Berkeley & Stanford researchers. Guaranteed publication and college-ready credentials." />
-        <meta property="og:image" content="/og-image.svg" />
+        <meta property="og:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Machine Learning Institute - Summer 2025 AI Research Program" />
@@ -62,7 +62,7 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Machine Learning Institute - Summer 2025 AI Research Program" />
         <meta name="twitter:description" content="Elite AI research program for high school students. Get mentored by Princeton, UC Berkeley & Stanford researchers. Guaranteed publication and college-ready credentials." />
-        <meta name="twitter:image" content="/og-image.svg" />
+        <meta name="twitter:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
         <meta name="twitter:image:alt" content="Machine Learning Institute - Summer 2025 AI Research Program" />
         
         {/* Additional Social Meta Tags */}

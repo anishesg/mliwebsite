@@ -18,8 +18,10 @@ export default function Home() {
         <meta property="og:title" content="Machine Learning Institute - Summer 2025 AI Research Program" />
         <meta property="og:description" content="Elite AI research program for high school students. Get mentored by Princeton, UC Berkeley & Stanford researchers. Guaranteed publication and college-ready credentials." />
         <meta property="og:url" content="https://mlsummer.com" />
+        <meta property="og:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
         <meta name="twitter:title" content="Machine Learning Institute - Summer 2025 AI Research Program" />
         <meta name="twitter:description" content="Elite AI research program for high school students. Get mentored by Princeton, UC Berkeley & Stanford researchers. Guaranteed publication and college-ready credentials." />
+        <meta name="twitter:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
         <link rel="canonical" href="https://mlsummer.com" />
       </Head>
       <Hero />

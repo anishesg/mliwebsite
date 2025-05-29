@@ -186,6 +186,14 @@ export default function Programs() {
         <title>AI Research Programs - Detailed Information About Research Tracks and Curriculum</title>
         <meta name="description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs. Transform your passion for AI into published research. Join our intensive programs designed to accelerate your journey from curious student to published researcher." />
         <meta name="keywords" content="AI research programs, research tracks, curriculum, application process, AI, machine learning, research, publication" />
+        <meta property="og:title" content="AI Research Programs - Detailed Information About Research Tracks and Curriculum" />
+        <meta property="og:description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs." />
+        <meta property="og:url" content="https://mlsummer.com/programs" />
+        <meta property="og:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <meta name="twitter:title" content="AI Research Programs - Detailed Information About Research Tracks and Curriculum" />
+        <meta name="twitter:description" content="Discover the comprehensive program overview, detailed curriculum, and application process for our AI research programs." />
+        <meta name="twitter:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <link rel="canonical" href="https://mlsummer.com/programs" />
       </Head>
       {/* Hero Section with Fixed Gradient Background */}
       <Box 

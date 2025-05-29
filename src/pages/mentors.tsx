@@ -82,6 +82,14 @@ export default function Mentors() {
         <title>ML Summer Program - Meet Your Mentors</title>
         <meta name="description" content="Meet the mentors of the ML Summer Program. Learn about their expertise, experience, and mentorship approach." />
         <meta name="keywords" content="ML Summer Program, mentors, machine learning, research, Princeton, UC Berkeley, Stanford" />
+        <meta property="og:title" content="ML Summer Program - Meet Your Mentors" />
+        <meta property="og:description" content="Meet the mentors of the ML Summer Program. Learn about their expertise, experience, and mentorship approach." />
+        <meta property="og:url" content="https://mlsummer.com/mentors" />
+        <meta property="og:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <meta name="twitter:title" content="ML Summer Program - Meet Your Mentors" />
+        <meta name="twitter:description" content="Meet the mentors of the ML Summer Program. Learn about their expertise, experience, and mentorship approach." />
+        <meta name="twitter:image" content="/Screenshot 2025-05-29 at 2.02.32 AM.png" />
+        <link rel="canonical" href="https://mlsummer.com/mentors" />
       </Head>
 
       {/* Hero Section */}
