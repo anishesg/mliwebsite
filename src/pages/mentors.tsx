@@ -176,7 +176,8 @@ export default function Mentors() {
                         {/* Profile Image */}
                         <Box 
                           w="full" 
-                          h="240px" 
+                          h="0"
+                          paddingBottom="100%"
                           borderRadius="xl" 
                           overflow="hidden"
                           bg="gray.100"
@@ -185,10 +186,13 @@ export default function Mentors() {
                           <Image
                             src={mentor.image}
                             alt={`Photo of ${mentor.name}`}
+                            position="absolute"
+                            top="0"
+                            left="0"
                             w="full"
                             h="full"
                             objectFit="cover"
-                            objectPosition="center top"
+                            objectPosition="center"
                             loading="lazy"
                           />
                         </Box>
