@@ -107,9 +107,9 @@ export default function Mentors() {
                 Meet Your Mentors
               </Heading>
               <Text fontSize="xl" maxW="4xl" lineHeight="tall" opacity={0.9}>
-                Our mentors aren't just teachers—they're active researchers from Princeton, UC Berkeley, 
-                and Stanford who've published cutting-edge work and know exactly what top universities look for. 
-                They'll guide you step-by-step through real ML research, helping you develop confidence, 
+                Our mentors aren&apos;t just teachers—they&apos;re active researchers from Princeton, UC Berkeley, 
+                and Stanford who&apos;ve published cutting-edge work and know exactly what top universities look for. 
+                They&apos;ll guide you step-by-step through real ML research, helping you develop confidence, 
                 creativity, and a publication-ready paper.
               </Text>
             </MotionBox>

@@ -2,12 +2,12 @@
 
 import type { IconButtonProps, SpanProps } from "@chakra-ui/react"
 import { ClientOnly, IconButton, Skeleton, Span } from "@chakra-ui/react"
-import { ThemeProvider, useTheme } from "next-themes"
+import { ThemeProvider } from "next-themes"
 import type { ThemeProviderProps } from "next-themes"
 import * as React from "react"
 import { LuMoon, LuSun } from "react-icons/lu"
 
-export interface ColorModeProviderProps extends ThemeProviderProps {}
+export type ColorModeProviderProps = ThemeProviderProps
 
 export function ColorModeProvider(props: ColorModeProviderProps) {
   return (
@@ -31,11 +31,11 @@ export function useColorMode(): UseColorModeReturnType {
   }
 }
 
-export function useColorModeValue<T>(light: T, dark: T): T {
+export function useColorModeValue<T>(light: T): T {
   return light // Always return light mode for now
 }
 
-export interface ColorModeIconProps extends Omit<IconButtonProps, "aria-label"> {}
+export type ColorModeIconProps = Omit<IconButtonProps, "aria-label">
 
 export const ColorModeIcon = React.forwardRef<
   HTMLButtonElement,
@@ -69,7 +69,7 @@ const ColorModeIconContent = () => {
   return colorMode === "light" ? <LuSun /> : <LuMoon />
 }
 
-interface ColorModeButtonProps extends Omit<IconButtonProps, "aria-label"> {}
+type ColorModeButtonProps = Omit<IconButtonProps, "aria-label">
 
 export const ColorModeButton = React.forwardRef<
   HTMLButtonElement,
@@ -130,11 +130,7 @@ export const DarkMode = React.forwardRef<HTMLSpanElement, SpanProps>(
   },
 )
 
-export interface ColorModeScriptProps {
-  initialColorMode?: 'light' | 'dark'
-}
-
-export function ColorModeScript(props: ColorModeScriptProps) {
+export function ColorModeScript(): null {
   return null
 }
 

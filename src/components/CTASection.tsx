@@ -18,10 +18,9 @@ const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/1j3Jg-B8XFA7peZXTW7FEtl
 
 export default function CTASection() {
   const sectionBg = useColorModeValue(
-    'linear-gradient(135deg, #1e40af 0%, #7c3aed 50%, #059669 100%)', 
     'linear-gradient(135deg, #1e40af 0%, #7c3aed 50%, #059669 100%)'
   )
-  const glowColor = useColorModeValue('accent.500', 'primary.300')
+  const glowColor = useColorModeValue('accent.500')
 
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
