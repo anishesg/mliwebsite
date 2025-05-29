@@ -176,7 +176,7 @@ export default function Mentors() {
                         {/* Profile Image */}
                         <Box 
                           w="full" 
-                          h="200px" 
+                          h="240px" 
                           borderRadius="xl" 
                           overflow="hidden"
                           bg="gray.100"
@@ -188,6 +188,8 @@ export default function Mentors() {
                             w="full"
                             h="full"
                             objectFit="cover"
+                            objectPosition="center top"
+                            loading="lazy"
                           />
                         </Box>
                       </VStack>
