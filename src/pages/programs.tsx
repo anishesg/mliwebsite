@@ -241,29 +241,29 @@ export default function Programs() {
                   <Box p={3} bg="rgba(255, 255, 255, 0.2)" borderRadius="full">
                     <Box as={FaCalendarAlt} w={6} h={6} />
                   </Box>
-                  <Text fontWeight="bold" fontSize="2xl">6-8</Text>
-                  <Text fontSize="sm" opacity={0.8}>Weeks Duration</Text>
+                  <Text fontWeight="bold" fontSize="2xl">8</Text>
+                  <Text fontSize="sm" opacity={0.8}>Week Duration</Text>
                 </VStack>
                 <VStack>
                   <Box p={3} bg="rgba(255, 255, 255, 0.2)" borderRadius="full">
-                    <Box as={FaUsers} w={6} h={6} />
+                    <Box as={FaTrophy} w={6} h={6} />
                   </Box>
-                  <Text fontWeight="bold" fontSize="2xl">500+</Text>
-                  <Text fontSize="sm" opacity={0.8}>Alumni Network</Text>
+                  <Text fontWeight="bold" fontSize="2xl">500%</Text>
+                  <Text fontSize="sm" opacity={0.8}>Higher T10 Acceptance</Text>
                 </VStack>
                 <VStack>
                   <Box p={3} bg="rgba(255, 255, 255, 0.2)" borderRadius="full">
                     <Box as={FaFilePdf} w={6} h={6} />
                   </Box>
-                  <Text fontWeight="bold" fontSize="2xl">100%</Text>
-                  <Text fontSize="sm" opacity={0.8}>Publication Rate</Text>
+                  <Text fontWeight="bold" fontSize="2xl">4+</Text>
+                  <Text fontSize="sm" opacity={0.8}>Partner Journals</Text>
                 </VStack>
                 <VStack>
                   <Box p={3} bg="rgba(255, 255, 255, 0.2)" borderRadius="full">
-                    <Box as={FaAward} w={6} h={6} />
+                    <Box as={FaUsers} w={6} h={6} />
                   </Box>
-                  <Text fontWeight="bold" fontSize="2xl">15+</Text>
-                  <Text fontSize="sm" opacity={0.8}>Research Awards</Text>
+                  <Text fontWeight="bold" fontSize="2xl">5+</Text>
+                  <Text fontSize="sm" opacity={0.8}>T10 Mentors</Text>
                 </VStack>
               </SimpleGrid>
             </MotionBox>
