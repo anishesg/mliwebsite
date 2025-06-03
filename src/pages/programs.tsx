@@ -4,10 +4,9 @@
  */
 
 import React from 'react'
-import { Box, Container, Heading, Text, VStack, HStack, Grid, Badge, Button, Flex, SimpleGrid, Separator } from '@chakra-ui/react'
+import { Box, Container, Heading, Text, VStack, HStack, Grid, Badge, Button, SimpleGrid, Separator } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import { FaCalendarAlt, FaClock, FaUsers, FaChartLine, FaFilePdf, FaTrophy, FaCheckCircle, FaArrowRight, FaBookOpen, FaLightbulb, FaStar, FaCode, FaBrain, FaRocket, FaAward, FaHandshake } from 'react-icons/fa'
-import NextLink from 'next/link'
+import { FaUsers, FaCheckCircle, FaArrowRight, FaRocket } from 'react-icons/fa'
 import Head from 'next/head'
 
 const MotionBox = motion(Box)
@@ -49,105 +48,6 @@ const programTracks = [
       'Publish your paper in a Harvard-affiliated journal',
       'Personalized research guidance and support',
       '6-week accelerated research program'
-    ]
-  }
-]
-
-const curriculumModules = [
-  {
-    module: 1,
-    title: 'Data Science Foundations',
-    weeks: 'Weeks 1-2',
-    icon: FaChartLine,
-    color: 'blue.500',
-    description: 'Master the fundamentals of data science and establish ethical frameworks for responsible AI research.',
-    topics: [
-      'Data collection, cleaning, and preprocessing techniques',
-      'Statistical analysis and hypothesis testing',
-      'Data visualization and storytelling with Python',
-      'AI ethics, bias detection, and fairness metrics',
-      'Feature engineering and selection strategies'
-    ],
-    projects: [
-      'Analyze real-world dataset from UN Global Goals initiative',
-      'Build bias detection algorithms for hiring datasets',
-      'Create interactive dashboards for climate change data'
-    ],
-    tools: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Plotly']
-  },
-  {
-    module: 2,
-    title: 'Machine Learning & AI',
-    weeks: 'Weeks 3-5',
-    icon: FaBrain,
-    color: 'green.500',
-    description: 'Dive deep into neural networks, deep learning frameworks, and cutting-edge AI architectures.',
-    topics: [
-      'Neural network fundamentals and backpropagation',
-      'Convolutional Neural Networks for computer vision',
-      'Recurrent networks and attention mechanisms for NLP',
-      'Transfer learning and pre-trained model fine-tuning',
-      'Model optimization, regularization, and hyperparameter tuning'
-    ],
-    projects: [
-      'Build medical image classification system for disease detection',
-      'Develop sentiment analysis tool for social media monitoring',
-      'Create time-series forecasting model for financial markets'
-    ],
-    tools: ['TensorFlow', 'PyTorch', 'Keras', 'Hugging Face', 'OpenCV']
-  },
-  {
-    module: 3,
-    title: 'Research & Publication',
-    weeks: 'Weeks 6-8',
-    icon: FaFilePdf,
-    color: 'purple.500',
-    description: 'Learn to conduct rigorous research, write academic papers, and navigate the publication process.',
-    topics: [
-      'Research methodology and experimental design',
-      'Literature review and citation management',
-      'Academic writing structure and scientific communication',
-      'Peer review process and handling feedback',
-      'Conference presentations and poster design'
-    ],
-    projects: [
-      'Conduct comprehensive literature review in chosen field',
-      'Design and execute controlled experiments',
-      'Write and submit research paper to academic journal'
-    ],
-    tools: ['LaTeX', 'Overleaf', 'Zotero', 'Git', 'Jupyter Notebooks']
-  }
-]
-
-const prerequisites = [
-  {
-    category: 'Academic Background',
-    icon: FaBookOpen,
-    requirements: [
-      'High school student (grades 9-12) or recent graduate',
-      'Strong performance in mathematics (Algebra II minimum)',
-      'GPA of 3.0+ (3.5+ recommended for intensive track)',
-      'Demonstrated interest in STEM fields'
-    ]
-  },
-  {
-    category: 'Technical Skills',
-    icon: FaCode,
-    requirements: [
-      'Basic programming experience (any language)',
-      'Familiarity with mathematical concepts',
-      'Comfort with computer-based learning',
-      'No prior AI/ML experience required'
-    ]
-  },
-  {
-    category: 'Personal Qualities',
-    icon: FaStar,
-    requirements: [
-      'Strong motivation and self-discipline',
-      'Curiosity about AI and its applications',
-      'Commitment to program duration',
-      'Interest in making positive global impact'
     ]
   }
 ]
